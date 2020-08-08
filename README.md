@@ -1,7 +1,7 @@
 # vscode-settings
 
 ## Font
-[Fira code](https://github.com/tonsky/FiraCode)
+* [Fira code](https://github.com/tonsky/FiraCode)
 
 ## Themes
 * [Halcyon](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode)
@@ -9,7 +9,7 @@
 ## IntelliSense/AutoComplete
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
   * Autocompletes filenames
-* [Vetur](https://marketplace.visua qlstudio.com/items?itemName=octref.vetur)
+* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
   * Vue tooling
 
 ## Style/Formatting
