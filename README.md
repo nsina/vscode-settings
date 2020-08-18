@@ -9,6 +9,8 @@
 ## IntelliSense/AutoComplete
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
   * Autocompletes filenames
+* [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+  * Autocompletes npm modules in import statements
 * [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
   * Vue tooling
 
@@ -20,6 +22,8 @@
 * HTML Snippets
 * Live Sass Compiler
 * Prettier - Code formatter
+* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+  * Auto-rename paired HTML/XML tags
 
 ## MISC
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
@@ -40,7 +44,6 @@
   "editor.fontFamily": "Fira Code",
   "workbench.editor.highlightModifiedTabs": true,
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-
   "liveSassCompile.settings.generateMap": false,
   "liveSassCompile.settings.formats": [
     {
@@ -81,7 +84,7 @@
     "master",
     "development"
   ],
-  "workbench.colorTheme": "Halcyon",
+  "workbench.colorTheme": "Halcyon"
 }
 
 ```
