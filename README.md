@@ -24,6 +24,8 @@
 * Prettier - Code formatter
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
   * Auto-rename paired HTML/XML tags
+* [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+  * Highlight CSV and TSV files in different colors, Run SQL-like queries
 
 ## MISC
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
