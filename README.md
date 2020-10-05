@@ -45,7 +45,7 @@
   "editor.fontLigatures": true,
   "editor.fontFamily": "Fira Code",
   "workbench.editor.highlightModifiedTabs": true,
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "liveSassCompile.settings.generateMap": false,
   "liveSassCompile.settings.formats": [
     {
@@ -62,7 +62,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "prettier.jsxBracketSameLine": false,
   "prettier.trailingComma": "es5",
-  "prettier.singleQuote": true,
+  "prettier.singleQuote": true, // Path Intellisense
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -86,7 +86,20 @@
     "master",
     "development"
   ],
-  "workbench.colorTheme": "Halcyon"
+  "workbench.colorTheme": "Halcyon",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "git.defaultCloneDirectory": "",
+  "terminal.integrated.automationShell.windows": "",
+  "workbench.colorCustomizations": {
+  "[Halcyon]": {
+    "terminal.ansiBlue": "#251c9b",
+    "terminal.ansiRed": "#ffffff"
+  }
+  },
+  "auto-rename-tag.activationOnLanguage": [
+    "*"
+  ],
 }
 
 ```
