@@ -22,8 +22,8 @@
 * HTML Snippets
 * Live Sass Compiler
 * Prettier - Code formatter
-* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-  * Auto-rename paired HTML/XML tags
+* ~~[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)~~
+  * ~~Auto-rename paired HTML/XML tags~~ 🚀 [Now native support in VSCode](https://code.visualstudio.com/updates/v1_49#_html-tag-rename-on-type)
 * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * Highlight CSV and TSV files in different colors, Run SQL-like queries
 
@@ -62,7 +62,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "prettier.jsxBracketSameLine": false,
   "prettier.trailingComma": "es5",
-  "prettier.singleQuote": true, // Path Intellisense
+  "prettier.singleQuote": true,
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -89,6 +89,7 @@
   "workbench.colorTheme": "Halcyon",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
+  "terminal.integrated.cwd": "c:\\dev",
   "git.defaultCloneDirectory": "",
   "terminal.integrated.automationShell.windows": "",
   "workbench.colorCustomizations": {
@@ -100,6 +101,7 @@
   "auto-rename-tag.activationOnLanguage": [
     "*"
   ],
+  "editor.renameOnType": true,
 }
 
 ```
