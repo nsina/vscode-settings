@@ -38,6 +38,7 @@
 ``` json
 {
   "editor.tabSize": 2,
+  "workbench.editor.pinnedTabSizing": "compact",
   "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": 0,
   "javascript.preferences.quoteStyle": "single",
