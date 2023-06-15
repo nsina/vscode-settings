@@ -19,6 +19,9 @@
 
 ## Style/Formatting
 
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- json
+- Prettify JSON
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - Integrates ESLint JS
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify)
@@ -33,6 +36,8 @@
 
 ## MISC
 
+- Import Cost
+- [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Wakatime](https://wakatime.com/@ensina)
   - Metrics, insights, and time tracking automatically generated from programming activity.
@@ -45,32 +50,14 @@
   "editor.tabSize": 2,
   "workbench.editor.pinnedTabSizing": "compact",
   "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 0,
   "javascript.preferences.quoteStyle": "single",
-  "editor.minimap.enabled": false,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Fira Code",
   "workbench.editor.highlightModifiedTabs": true,
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-  "liveSassCompile.settings.generateMap": false,
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "/dist/css"
-    },
-    {
-      "format": "compressed",
-      "extensionName": ".min.css",
-      "savePath": "/dist/css"
-    }
-  ],
-  "liveServer.settings.donotShowInfoMsg": true,
-  "prettier.jsxBracketSameLine": false,
-  "prettier.trailingComma": "es5",
+  "prettier.bracketSameLine": false,
   "prettier.singleQuote": true,
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -98,16 +85,30 @@
   "workbench.colorTheme": "Halcyon",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "terminal.integrated.cwd": "c:\\dev",
   "terminal.integrated.automationShell.windows": "",
   "workbench.colorCustomizations": {
     "[Halcyon]": {
-      "terminal.ansiBlue": "#251c9b",
+      "terminal.ansiBlue": "#1f1876",
       "terminal.ansiRed": "#ffffff"
     }
   },
-  "editor.renameOnType": true,
+  "editor.linkedEditing": true,
   "editor.formatOnSave": true,
-  "editor.tabCompletion": "onlySnippets"
+  "editor.tabCompletion": "onlySnippets",
+  "prettier.vueIndentScriptAndStyle": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": true,
+  "tailwindCSS.emmetCompletions": true,
+  "editor.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 14,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "css.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "volar.inlayHints.eventArgumentInInlineHandlers": false,
+  "editor.inlineSuggest.enabled": true
 }
 ```
